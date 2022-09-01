@@ -1,0 +1,20 @@
+{
+  "name": "sage_forest",
+  "version": "1.0.0",
+  "description": "Spiritual Development Consultation",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattGDwyer/sageforest.git"
+  },
+  "author": "Matthew Dwyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattGDwyer/sageforest/issues"
+  },
+  "homepage": "https://github.com/MattGDwyer/sageforest#readme"
+}
