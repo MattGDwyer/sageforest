@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Marat';
+    src: local('Marat Regular'), local('Marat-Regular'),
+        url('Marat-Regular.woff2') format('woff2'),
+        url('Marat-Regular.woff') format('woff'),
+        url('Marat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

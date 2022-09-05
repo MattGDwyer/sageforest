@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  --font-default: "Marat-Regular";
   --font-primary: "Raleway", sans-serif;
   --font-secondary: "Raleway", sans-serif;
   /* font-weight: 100; */
@@ -60,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-primary);
+  font-family: var(--font-default);
 
 }
 
@@ -125,7 +126,7 @@ section {
   font-size: 56px;
   font-weight: 500;
   color: #fff;
-  font-family: var(--font-secondary);
+  font-family: var(--font-default);
 }
 
 .breadcrumbs ol {
@@ -276,7 +277,7 @@ section {
   font-size: 30px;
   font-weight: 400;
   color: var(--color-quinary);
-  font-family: var(--font-secondary);
+  font-family: var(--font-default);
   margin: 0;
 }
 
@@ -556,6 +557,7 @@ section {
     background: url("../img/logo.png") top;
     background-size:100vw;
     background-repeat: no-repeat;
+    font-weight: 100;
   }
   /* .hero:before {
     background: rgba(246, 238, 223, 0.7);
@@ -583,7 +585,7 @@ section {
   font-weight: 700;
   line-height: 1.2;
   /* color: #fff; */
-  font-family: var(--font-secondary);
+  font-family: var(--font-default);
   font-weight: 100;
 }
 
@@ -597,7 +599,7 @@ section {
 }
 
 .hero .btn-get-started {
-  font-family: var(--font-secondary);
+  font-family: var(--font-default);
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 2px;
@@ -678,7 +680,7 @@ section {
   font-size: 18px;
   font-weight: 400;
   color: var(--color-quinary);
-  font-family: var(--font-secondary);
+  font-family: var(--font-default);
 }
 
 .why-us .swiper {
@@ -740,7 +742,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 36px;
-  font-family: var(--font-secondary);
+  font-family: var(--font-default);
   color: var(--color-secondary);
 }
 
@@ -921,7 +923,7 @@ section {
 }
 
 .features .details .btn-get-started {
-  font-family: var(--font-primary);
+  font-family: var(--font-default);
   display: inline-block;
   font-weight: 500;
   font-size: 15px;
@@ -2148,7 +2150,7 @@ section {
 .footer .footer-content .footer-info p {
   font-size: 15px;
   margin-bottom: 0;
-  font-family: var(--font-primary);
+  font-family: var(--font-default);
   color: var(--color-secondary);
 }
 
@@ -2165,7 +2167,7 @@ section {
   justify-content: center;
   align-items: center;
   background-color: var(--color-secondary);
-  color: var(--color-primary);
+  color: var(--color-default);
   border-radius: 50px;
 }
 
@@ -2193,7 +2195,7 @@ section {
 
 .footer .footer-content .footer-links ul i {
   margin-right: 2px;
-  color: var(--color-primary);
+  color: var(--color-default);
   font-size: 16px;
   line-height: 0;
 }
