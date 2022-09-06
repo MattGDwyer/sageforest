@@ -1000,7 +1000,7 @@ section {
 .recent-posts .post-box .meta .post-date {
   font-size: 15px;
   font-weight: 400;
-  color: var(--color-primary);
+  color: var(--color-quaternary);
 }
 
 .recent-posts .post-box .meta .post-author {
@@ -2225,7 +2225,7 @@ section {
 }
 
 .footer .footer-content .social-links a:hover {
-  background-color: var(--color-quinary);
+  background-color: var(--color-primary);
 }
 
 .footer .footer-content h4 {
