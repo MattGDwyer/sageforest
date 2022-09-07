@@ -1750,6 +1750,10 @@ section {
   margin-bottom: 20px;
 }
 
+.blog .blog-details .mandala {
+  max-height: 50vh;
+}
+
 .blog .blog-details .meta-top {
   margin-top: 20px;
   color: var(--color-gray);
