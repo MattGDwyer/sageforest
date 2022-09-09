@@ -2322,3 +2322,7 @@ section {
 .footer .email-link:hover {
   color: var(--color-tertiary);
 }
+
+.footer-services-page {
+  background-color: var(--color-primary)!important;
+}
