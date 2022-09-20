@@ -568,10 +568,18 @@ section {
     background: rgba(246, 238, 223, 0.7);
   } */
   .hero h2 {
-    visibility: hidden;
-    /* margin-top: 1vh!important;
-    font-size: 1.25rem!important; */
+    visibility: hidden!important;
+    /* margin-top: 20vh; */
+    /* font-size: 1.25rem!important; */
   }
+
+  .hero blockquote {
+    /* visibility: hidden!important; */
+    margin-top: 75vh!important;
+    width: 80vw;
+    font-size: 1.25rem!important;
+  }
+
 }
 
 .hero .container {
@@ -645,18 +653,95 @@ section {
   color: var(--color-secondary);
 }
 
+@media (max-width: 1024px) and (min-height: 1366px) {
+
+  .hero blockquote {
+    margin-top: 35vh!important;
+  }
+}
+
+@media (max-width: 1024px) and (min-height: 600px) {
+
+  .hero {
+    min-height: 200vh;
+  }
+
+  .hero blockquote {
+    margin-top: 95vh!important;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .hero blockquote {
+    margin-top: 25vh!important;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .hero blockquote {
+    margin-top: 25vh!important;
+  }
+}
+
+@media (max-width: 688px) {
+
+  .hero blockquote {
+    margin-top: 20vh!important;
+  }
+}
+
 @media (max-width: 640px) {
   .hero h2 {
     font-size: 36px;
     line-height: 1;
   }
 
+
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 13px;
   }
+
+  .hero blockquote {
+    margin-top: 10vh!important;
+  }
 }
 
+@media (max-width: 600px) {
+
+  .hero blockquote {
+    margin-top: 25vh!important;
+  }
+}
+
+@media (max-width: 540px) and (min-height: 720px) {
+
+  .hero blockquote {
+    margin-top: 45vh!important;
+  }
+}
+
+@media (max-width: 414px) {
+
+  .hero blockquote {
+    margin-top: 18vh!important;
+  }
+}
+
+@media (max-width: 393px) {
+
+  .hero blockquote {
+    margin-top: 15vh!important;
+  }
+}
+/* @media (max-width: 375px) {
+
+  .hero blockquote {
+    margin-top: 15vh!important;
+  }
+} */
 /*--------------------------------------------------------------
 # Why Choose Us Section
 --------------------------------------------------------------*/
@@ -741,6 +826,11 @@ section {
   padding: 0 0 80px 0;
 }
 
+@media (max-width: 1024px) and (min-height: 1366px) {
+  .why-us .img-bg {
+    height: 50vh!important;
+  }
+}
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -888,11 +978,6 @@ section {
   /* width: 20vw; */
 }
 
-@media (max-width: 768px) {
-  .features .phone-wrap {
-    position: relative;
-  }
-}
 
 .features .phone-wrap img {
   width: 340px;
@@ -901,6 +986,12 @@ section {
 @media (max-width: 992px) {
   .features .phone-wrap img {
     margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .features .phone-wrap {
+    position: relative;
   }
 }
 
@@ -948,7 +1039,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Recent Blog Posts Section
+# Recent blog-img-4 Posts Section
 --------------------------------------------------------------*/
 .recent-posts .post-box {
   transition: 0.3s;
@@ -979,6 +1070,13 @@ section {
   .blog-img-4 {
     padding-top: 50px;
     padding-left: 100px;
+  }
+}
+
+@media (max-width: 280px) and (min-height: 653px) {
+  .blog-img-4 {
+    padding-top: 115px;
+    padding-left: 40px;
   }
 }
 
@@ -1422,9 +1520,134 @@ section {
   padding-right: 0;
   padding-left: 0;
 }
+
+@media (max-width: 1024px) and (min-height: 1366px) {
+  .contact .phone-wrap .phone {
+    margin-top: -5vh!important;
+    max-height: 25vh!important;
+    /* margin-left: 70vw; */
+  }
+}
+
+@media (max-width: 912px) and (min-height: 1368px) {
+  .contact {
+    min-height: 75vh!important;
+  }
+
+  .contact .phone-wrap .phone {
+    max-height: 25vh!important;
+    margin-top: 30px!important;
+    margin-right: 18vw;
+  }
+}
+
+@media (max-width: 834px) {
+  .contact {
+    min-height: 80vh!important;
+  }
+
+  .contact .phone-wrap .phone {
+    max-height: 25vh!important;
+    margin-top: 10px;
+    margin-right: 25vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    min-height: 85vh!important;
+  }
+
+  .contact .phone-wrap .phone {
+    max-height: 25vh!important;
+    margin-top: 10px;
+    margin-right: 28vw;
+  }
+}
+
+@media (max-width: 688px) {
+  .contact {
+    min-height: 90vh!important;
+  }
+
+  .contact .phone-wrap .phone {
+    max-height: 25vh!important;
+    margin-top: 10px;
+    margin-right: 20vw;
+  }
+}
+
 @media (max-width: 640px) {
   .contact {
     background-position: center 50px;
+  }
+}
+
+@media (max-width: 540px) and (min-height: 720px) {
+  .contact {
+    min-height: 125vh!important;
+  }
+
+  .contact .phone-wrap .phone {
+    margin-right: 30vw;
+  }
+}
+
+@media (max-width: 414px) {
+  .contact {
+    min-height: 105vh!important;
+  }
+
+  .contact .phone-wrap .phone {
+    margin-right: 20vw;
+  }
+}
+
+@media (max-width: 414px) and (min-height: 736px){
+  .contact {
+    min-height: 112vh!important;
+  }
+
+}
+
+@media (max-width: 412px) {
+  .contact {
+    min-height: 115vh!important;
+  }
+
+  /* .contact .phone-wrap .phone {
+    margin-right: 20vw;
+  } */
+}
+
+@media (max-width: 393px) {
+  .contact {
+    min-height: 110vh!important;
+  }
+
+}
+
+@media (max-width: 384px) {
+  .contact {
+    min-height: 130vh!important;
+  }
+
+  .contact .phone-wrap .phone {
+    margin-right: 25vw;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .contact .phone-wrap .phone {
+    margin-right: 20vw;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .contact {
+    min-height: 150vh!important;
   }
 }
 
@@ -2325,4 +2548,11 @@ section {
 
 .footer-services-page {
   background-color: var(--color-primary)!important;
+}
+
+@media (max-width: 1024px) and (min-height: 600px) {
+
+  .footer {
+    min-width: 110vw;
+  }
 }
